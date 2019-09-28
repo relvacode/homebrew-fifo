@@ -2,16 +2,16 @@
 class Fifo < Formula
   desc ""
   homepage ""
-  version "0.1.1"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/relvacode/fifo/releases/download/v0.1.1/fifo_0.1.1_osx_x86_64.tar.gz"
-    sha256 "640dd756775322fc26495fdb852126eb9ea6825f4c280300686879ce22b5230c"
+    url "https://github.com/relvacode/fifo/releases/download/0.2.0/fifo_0.2.0_osx_x86_64.tar.gz"
+    sha256 "73d3c749d23fddb4d3d970cfb35942f0cee2eb59b2b9ea4f0f52f7d38dbc5eca"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/relvacode/fifo/releases/download/v0.1.1/fifo_0.1.1_linux_x86_64.tar.gz"
-      sha256 "ef4d38f6478f41c4aeed432e721183e7159ec2bed0bfd3a0194b28a9d9ac285d"
+      url "https://github.com/relvacode/fifo/releases/download/0.2.0/fifo_0.2.0_linux_x86_64.tar.gz"
+      sha256 "a83602c0ab17835528b9fd0c704f193ee92b1004b1874b62d0c224269fc251b4"
     end
   end
 
